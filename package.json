@@ -1,0 +1,32 @@
+{
+  "name": "starter-typescript",
+  "version": "1.0.0",
+  "description": "This repository is a starter for setting up Typescript. It provides the basic configuration and tools to write and run TypeScript code in a simple and efficient way.",
+  "author": {
+    "name": "Size Up",
+    "email": "noreply@sizeup.cloud",
+    "url": "https://docs.sizeup.cloud"
+  },
+  "contributors": [
+    {
+      "name": "Anthony Pillot",
+      "email": "pillot.anthony@gmail.com",
+      "url": "https://anthonypillot.com"
+    }
+  ],
+  "license": "MIT",
+  "private": true,
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "clean": "rm -rf ./build",
+    "build": "yarn clean && tsc --build",
+    "start:prod": "yarn build && node ./build/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
