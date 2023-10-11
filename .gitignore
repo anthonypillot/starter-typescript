@@ -3,3 +3,6 @@ node_modules
 
 # TypeScript build output
 build
+
+# macOS
+.DS_Store
