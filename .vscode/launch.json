@@ -7,14 +7,14 @@
     {
       "preLaunchTask": "Install dependencies",
       "name": "Launch [development]",
-      "command": "yarn dev",
+      "command": "npm run dev",
       "request": "launch",
       "type": "node-terminal"
     },
     {
       "preLaunchTask": "Install dependencies",
       "name": "Launch [production]",
-      "command": "yarn start:prod",
+      "command": "npm start",
       "request": "launch",
       "type": "node-terminal"
     }

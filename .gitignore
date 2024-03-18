@@ -2,7 +2,7 @@
 node_modules
 
 # TypeScript build output
-build
+dist
 
 # macOS
 .DS_Store
