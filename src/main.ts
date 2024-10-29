@@ -11,3 +11,13 @@ class Application {
 }
 
 Application.start();
+
+type Developer = {
+  name: string;
+};
+
+const developer: Developer = {
+  name: "Anthony Pillot",
+};
+
+console.log(`The creator of this starter kit is ${developer.name}.`);
