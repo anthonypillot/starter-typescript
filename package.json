@@ -15,7 +15,6 @@
     }
   ],
   "license": "MIT",
-  "private": true,
   "main": "src/main.ts",
   "scripts": {
     "clean": "rm -rf dist",
