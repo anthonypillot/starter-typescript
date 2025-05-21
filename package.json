@@ -18,6 +18,7 @@
   "main": "src/main.ts",
   "scripts": {
     "clean": "rm -rf dist",
+    "lint": "tsc --noEmit",
     "dev": "node --watch --require tsconfig-paths/register --require ts-node/register src/main.ts",
     "build": "npm run clean && tsc && tsc-alias",
     "start": "npm run build && node dist/main.js"
